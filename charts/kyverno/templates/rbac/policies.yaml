@@ -13,6 +13,7 @@ rules:
       - clustercleanuppolicies
       - policies
       - clusterpolicies
+      - policyexceptions
     verbs:
       - create
       - delete
@@ -36,6 +37,7 @@ rules:
       - clustercleanuppolicies
       - policies
       - clusterpolicies
+      - policyexceptions
     verbs:
       - get
       - list
